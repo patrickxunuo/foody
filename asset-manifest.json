@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c726410.chunk.css",
+    "main.js": "/static/js/main.cf0deb98.chunk.js",
+    "main.js.map": "/static/js/main.cf0deb98.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c17c7a03.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c17c7a03.js.map",
+    "static/js/2.4eeb0209.chunk.js": "/static/js/2.4eeb0209.chunk.js",
+    "static/js/2.4eeb0209.chunk.js.map": "/static/js/2.4eeb0209.chunk.js.map",
+    "static/js/3.67ac6656.chunk.js": "/static/js/3.67ac6656.chunk.js",
+    "static/js/3.67ac6656.chunk.js.map": "/static/js/3.67ac6656.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0c726410.chunk.css.map": "/static/css/main.0c726410.chunk.css.map",
+    "static/js/2.4eeb0209.chunk.js.LICENSE.txt": "/static/js/2.4eeb0209.chunk.js.LICENSE.txt",
+    "static/media/avataPatrick.d862280b.jpg": "/static/media/avataPatrick.d862280b.jpg",
+    "static/media/avatarTrump.3d29e899.jpg": "/static/media/avatarTrump.3d29e899.jpg",
+    "static/media/food.51a2c884.jpg": "/static/media/food.51a2c884.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c17c7a03.js",
+    "static/js/2.4eeb0209.chunk.js",
+    "static/css/main.0c726410.chunk.css",
+    "static/js/main.cf0deb98.chunk.js"
+  ]
+}
