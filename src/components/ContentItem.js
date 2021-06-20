@@ -4,7 +4,7 @@ import AvatarTrump from '../images/avatarTrump.jpg'
 import Food from "../images/food.jpg";
 
 const FriendRequest = (props) => {
-    //state for whether the friend request is handled
+    //state for whether the friend request is handled, accepted or rejected
     const [isAdded, setIsAdded] = useState(props.item.isAdded)
 
     //state for pop up window
@@ -25,6 +25,7 @@ const FriendRequest = (props) => {
     const itemDate = item.date
     const itemFrd = item.friends
     const itemStatus = item.status
+    console.log(props.item.isAdded)
 
     return (
         <div className="content-item-wrap">
@@ -41,10 +42,10 @@ const FriendRequest = (props) => {
                 <img className='img-avatar img-avatar-normal' src={AvatarTrump} alt=""/>
                 }
                 {itemFrd.length >= 2 &&
-                    <>
-                        <img className='img-avatar img-avatar-top' src={AvatarTrump} alt=""/>
-                        <img className='img-avatar img-avatar-bot' src={AvatarPatrick} alt=""/>
-                    </>
+                <>
+                    <img className='img-avatar img-avatar-top' src={AvatarTrump} alt=""/>
+                    <img className='img-avatar img-avatar-bot' src={AvatarPatrick} alt=""/>
+                </>
                 }
             </div>
 
@@ -84,20 +85,21 @@ const FriendRequest = (props) => {
             </div>
 
             <div className="content-item-right">
-
                 {/*display buttons if message type is addFrn*/}
-                {(itemType === 'addFrd' && isAdded === false) &&
+                {(itemType === 'addFrd' && isAdded !== true) &&
                 <>
                     <button className="btn-frd fa fa-check" onClick={() => {
                         changeIsAdded(true)
                         setPopUpMsg('Accepted!')
                         setPopUp(true)
                     }}></button>
-                    <button className="btn-frd fa fa-times" onClick={() => {
-                        changeIsAdded(false)
-                        setPopUpMsg('Rejected!')
-                        setPopUp(true)
-                    }}></button>
+                    <button className="btn-frd fa fa-times"
+                            style={isAdded === false ? {backgroundColor: 'lightgray'}: {backgroundColor:'white'}}
+                            onClick={() => {
+                                changeIsAdded(false)
+                                setPopUpMsg('Rejected!')
+                                setPopUp(true)
+                            }}> </button>
                 </>
                 }
 

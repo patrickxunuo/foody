@@ -29,7 +29,7 @@ const recentData = [
         'date': '10 hours ago',
         'friends': ['Donald T.'],
         'status': 'read',
-        'isAdded': false,
+        'isAdded': null,
     }
 ]
 

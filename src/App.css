@@ -22,7 +22,7 @@ header {
     align-items: center;
     background: white;
     z-index: 99;
-    padding-top:50px;
+    padding-top: 50px;
 }
 
 .header-left, .header-right {
@@ -93,18 +93,21 @@ header {
     width: 35px;
     border-radius: 50%;
 }
-.img-avatar-top{
+
+.img-avatar-top {
     width: 30px;
     position: absolute;
     right: 10px;
     top: 5px;
 }
-.img-avatar-bot{
-    width:30px;
+
+.img-avatar-bot {
+    width: 30px;
     position: absolute;
-    right:0;
+    right: 0;
     box-shadow: 0 0 0 2px white;
 }
+
 .img-food-frame {
     height: 50px;
     width: 50px;
@@ -138,12 +141,13 @@ header {
     color: grey;
     background: white;
     filter: drop-shadow(3px 3px 5px rgba(180, 180, 180, 0.3));
-    margin-left: 10px;
     cursor: pointer;
 }
-
+.btn-frd:nth-of-type(2){
+    margin-left: 10px;
+}
 /*pop up canvas*/
-.pop-up-canvas{
+.pop-up-canvas {
     display: flex;
     position: fixed;
     top: 0;
@@ -152,26 +156,29 @@ header {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 999;
 }
-.pop-up-wrap{
+
+.pop-up-wrap {
     height: 120px;
     width: 300px;
     background: white;
     border-radius: 10px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
-.pop-up-text{
+
+.pop-up-text {
     font-size: 20px;
     font-weight: 500;
 }
-.btn-ok{
+
+.btn-ok {
     font-size: 18px;
-    background: rgb(180,180,180);
+    background: rgb(180, 180, 180);
     padding: 0.5em 1em;
     border: none;
     border-radius: 10px;

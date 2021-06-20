@@ -13,7 +13,7 @@ const lastYearData = [
         'date': 'Jul. 7',
         'friends': ['Donald T.'],
         'status': 'read',
-        'isAdded': true,
+        'isAdded': false,
     },
     {
         'id': '3',
@@ -21,7 +21,7 @@ const lastYearData = [
         'date': 'Jul. 7',
         'friends': ['Donald T.'],
         'status': 'read',
-        'isAdded': false,
+        'isAdded': null,
     }
 ]
 
