@@ -37,7 +37,7 @@ header {
 }
 
 .content-block-wrap {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .item-title {
@@ -73,11 +73,11 @@ header {
 
 .content-item-mid {
     width: 250px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .content-item-right {
-    width: 130px;
+    width: 100px;
     display: flex;
     justify-content: flex-end;
     align-self: start;
@@ -85,6 +85,7 @@ header {
 }
 
 .content-item-date {
+    font-size: 12px;
     color: rgb(180, 180, 180)
 }
 
@@ -137,7 +138,7 @@ header {
     color: grey;
     background: white;
     filter: drop-shadow(3px 3px 5px rgba(180, 180, 180, 0.3));
-    margin: 5px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
