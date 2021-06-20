@@ -22,6 +22,7 @@ header {
     align-items: center;
     background: white;
     z-index: 99;
+    padding-top:50px;
 }
 
 .header-left, .header-right {
@@ -32,7 +33,7 @@ header {
 .content-wrap {
     width: 90%;
     position: relative;
-    top: 70px;
+    top: 120px;
 }
 
 .content-block-wrap {
@@ -60,10 +61,12 @@ header {
 }
 
 .content-item-left {
-    width: 100px;
+    width: 90px;
+    height: 55px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-self: start;
     justify-content: space-between;
     position: relative;
 }
@@ -77,6 +80,8 @@ header {
     width: 130px;
     display: flex;
     justify-content: flex-end;
+    align-self: start;
+    margin-top: 10px;
 }
 
 .content-item-date {
@@ -91,7 +96,7 @@ header {
     width: 30px;
     position: absolute;
     right: 10px;
-    bottom: 0;
+    top: 5px;
 }
 .img-avatar-bot{
     width:30px;
